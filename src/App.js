@@ -3,8 +3,8 @@ import { Container, Row, Col, Navbar } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAddressBook } from '@fortawesome/free-regular-svg-icons';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import ContactList from './ContactList/ContactList';
-import ContactForm from './ContactForm/ContactForm';
+import ContactList from './ContactList';
+import ContactForm from './ContactForm';
 import './App.css';
 
 const App = () => {
